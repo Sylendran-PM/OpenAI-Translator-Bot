@@ -20,19 +20,20 @@ This is an example Traslator app used in the OpenAI API [quickstart tutorial](ht
    $ npm install
    ```
 
-5. Make a copy of the example environment variables file
+5. Create a .env file
 
    On Linux systems: 
    ```bash
-   $ cp .env.example .env
+   $ vi .env
    ```
-   On Windows:
-   ```powershell
-   $ copy .env.example .env
-   ```
-6. Add your [API key](https://platform.openai.com/account/api-keys) to the newly created `.env` file
 
-7. If next command is not recognised, then install it using 'npm i next'
+6. Add your [API key](https://platform.openai.com/account/api-keys) to the newly created `.env` file by pasting the following inside
+   ```
+   # Do not share your OpenAI API key with anyone! It should remain a secret.
+   OPENAI_API_KEY=your API key goes here
+   ```
+
+7. If you do not have 'next' installed, then install it using 'npm i next'
 
 8. Run the app
 
