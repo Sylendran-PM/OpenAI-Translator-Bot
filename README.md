@@ -32,7 +32,9 @@ This is an example Traslator app used in the OpenAI API [quickstart tutorial](ht
    ```
 6. Add your [API key](https://platform.openai.com/account/api-keys) to the newly created `.env` file
 
-7. Run the app
+7. If next command is not recognised, then install it using 'npm i next'
+
+8. Run the app
 
    ```bash
    $ npm run dev
